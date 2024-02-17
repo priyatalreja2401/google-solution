@@ -49,7 +49,10 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+  flutter:
+    sdk: flutter
 
+  google_fonts: ^6.1.0
 # The following section is specific to Flutter packages.
 flutter:
 
@@ -89,12 +92,3 @@ assets:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
-dependency_overrides:
-  matcher: 0.12.16+1
-  material_color_utilities: ^0.8.0
-  meta: 1.12.0
-  path: 1.9.0
-  test_api: ^0.7.0
-  web: ^0.3.0
-

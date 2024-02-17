@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ArticlePage extends StatelessWidget {
   const ArticlePage({super.key});
@@ -45,20 +46,18 @@ class ArticlePage extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(left: 30,top: 492),
             child: Text('XYZ PRODUCT',
-              style: TextStyle(
+              style: GoogleFonts.poppins(
                 fontSize: 36,
-                fontWeight: FontWeight.w600,
-              ),
+              )
 
             ),
           ),
           Container(
             margin: EdgeInsets.only(left: 30,top: 553),
             child: Text('DESCRIPTION',
-                style: TextStyle(
+                style: GoogleFonts.poppins(
                   fontSize: 16,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.grey,
+
                 )
             ),
           ),
