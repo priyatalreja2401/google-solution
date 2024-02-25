@@ -18,6 +18,7 @@ Intrend is a platform where the buyer can find the right fit of the products for
 
 #Running the project
 Start a new flutter project in your desired IDE, once you recieve all the files 
+
 #technology stack
 1.Flutter- This web cross platform has been used to make the frontend and backend easier as well as provide an interactive ui to the consumers.
 2.Django- It will be used at the backend along with firebase to connect with flutter 
